@@ -368,15 +368,17 @@ o eliminar la propiedad y utilizar el JDK configurado en Android Studio.
 
 ---
 
-# 9. Posible mezcla de responsabilidades
+# 9. Control de Responsabilidades Arquitectónicas
 
 ## Archivos involucrados
 
 - EpisodeRemoteMediator.kt
-- EpisodeRepository.kt
+- EpisodeRepositoryImpl.kt
+- MainViewModel.kt
 
 ## Observación
 
+Se verificó que el flujo de paginación respete las directrices de la arquitectura limpia (Clean Architecture) y los patrones recomendados por Google.
 Durante la revisión aparecieron varias referencias cruzadas entre:
 
 - Paging

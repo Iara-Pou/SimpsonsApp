@@ -408,43 +408,7 @@ API ↔ Room
 
 ---
 
-# 10. Código residual de ejemplo
-
-## Archivo
-`Episode.kt`
-
-## Línea archivo
-14
-
-## Evidencia
-
-La presencia de:
-
-```kotlin
-// NO BORRAR
-```
-
-junto a:
-
-```kotlin
-return Episode;
-```
-
-indica código temporal dejado accidentalmente.
-
-## Recomendación
-
-Eliminar:
-
-- código de prueba
-- comentarios temporales
-- snippets de debugging
-
-antes de entregar el proyecto.
-
----
-
-# 11 / Bonus: Mal uso de Use Cases
+# 10. Mal uso de Use Cases
 
 ## Archivos
 `GetEpisodeDetailUseCase.kt`
